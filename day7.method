@@ -1,0 +1,28 @@
+pas de  priorisation arithmétique => 2 cas: 
+  - addition: '+' positionné en premier ou dernier opérateur 
+  - multiplication: autres.
+
+ligne de fichier fichier -> equation = guess : operandes
+  
+class equation:
+  self.operandes
+  self.guess
+  self.indivisor(liste des indiviseurs de guess)   
+
+fonction additiv_test(operandes)
+  renvoi true si somme (liste d'operande) = guess
+
+fonction mutiplicativ_test(operandes)
+  initier à True                         
+  verifier pour chaque operande hors liste des indiviseur s'il n'est pas un indiviseur; l'ajouter à la liste au besoin
+                           si indiviseur ->False et break
+  renvoi false si produit (liste d'operande) := guess
+
+fonction result(equation)                           
+
+                           
+
+                           
+main
+   définir la liste des arrangements d'opérateur : operators_list                       
+                        
